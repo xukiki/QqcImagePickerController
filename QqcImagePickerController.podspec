@@ -6,11 +6,12 @@ Pod::Spec.new do |s|
   s.requires_arc  = true
 
   s.name         = "QqcImagePickerController"
-  s.version      = "1.0.0"
+  s.version      = "1.0.10"
   s.summary      = "QqcImagePickerController"
   s.homepage     = "https://github.com/xukiki/QqcImagePickerController"
   s.source       = { :git => "https://github.com/xukiki/QqcImagePickerController.git", :tag => "#{s.version}" }
   
   s.source_files  = ["QqcImagePickerController/*.{h,m}"]
+  s.dependency  = "QqcColorDef"
 
 end
